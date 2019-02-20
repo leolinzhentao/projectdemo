@@ -37,6 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'df_leo.apps.Df_leoConfig',
+    'df_hch.apps.Df_hchConfig',
 )
 
 MIDDLEWARE_CLASSES = (
